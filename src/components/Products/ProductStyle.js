@@ -22,4 +22,14 @@ export const ProductList = styled.div`
         font-weight: 400;
         font-size: 12px;
     }
+    @media only screen and (max-width: 768px) {
+        
+    }
+    @media only screen and (max-width: 600px) {
+        
+        .product-card{
+            position:relative;
+        }
+        margin-top: 2rem;
+    }
 `

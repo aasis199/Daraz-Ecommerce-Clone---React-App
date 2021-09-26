@@ -7,7 +7,5 @@ export const Category = styled.div`
     a:hover{
         color: #e75430;
     }
-    
-
     }
 `

@@ -11,5 +11,11 @@ export const Buttonstyle = styled.div`
         color: #f57224;
         right: 1rem;
         border-radius: 3px;
+        transition: 0.3s;
+    }
+    button:hover{
+        background-color:#f57224;
+        color: white;
+
     }
 `

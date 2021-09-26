@@ -63,7 +63,7 @@ const Categories = [
   
   export default function Category() {
     return (
-      <div className="categories d-none d-lg-block">
+      <div className="categories d-none d-md-block">
         {Categories.map(({ title,URL,cName, id }) => (
           <a href={URL}><p key={id}> {title}</p></a>
         ))}

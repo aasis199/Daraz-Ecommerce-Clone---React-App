@@ -14,7 +14,7 @@ function App() {
 <main>
 
      <Slider />
-     <img src="https://icms-image.slatic.net/images/ims-web/e6d679c4-55a1-401a-9ac3-deb2aeec04bb.gif" className="offer-gif"></img>
+     <img src="https://icms-image.slatic.net/images/ims-web/e6d679c4-55a1-401a-9ac3-deb2aeec04bb.gif" className="offer-gif d-none d-lg-block"></img>
      <Card />
 
      <Container className="top-15">
@@ -27,7 +27,7 @@ function App() {
     </Container>
 
     <Container className="top-15-white mt-4 mb-5">
-    <h3 className="p-2">Categories</h3>
+    <h3 className="p-2">Just for you</h3>
     <Products />
     <Products />
 

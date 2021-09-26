@@ -49,10 +49,10 @@ export default function Products() {
 
     return (
         <ProductList>
-            <div className="container products ">
-                <div className="d-flex">
+            <div className="container products">
+                <div className="row">
                 {Product.map(({title,price,dprice,image,URL}) =>
-                <div className="product-card  col-sm-6 col-md-4 col-lg-2 col-12 p-2">
+                <div className="product-card col-xs-6 col-sm-6 col-md-4 col-lg-2 col-6 p-2">
                     <a href={URL}>
                         <img src={image} className="product-image w-100 p-1" alt="product"></img> 
                         <h7 className="product-title">{title}</h7>

@@ -20,7 +20,7 @@ export default function Navbar() {
             </div>
 
             <div className="second-menu">
-                    <div className="co d-none d-lg-block">
+                    <div className="co ">
                         <img src="https://laz-img-cdn.alicdn.com/images/ims-web/TB1eIwbmljTBKNjSZFuXXb0HFXa.png" className="logo" alt="tasbir"></img>
                     </div>
                         

@@ -19,4 +19,8 @@ export const Salestyle = styled.div`
         color: white;
         border-radius: 5px;
     }
+    @media only screen and (max-width: 600px) {
+        border:none;
+        width: 100vw important;
+    }
 `

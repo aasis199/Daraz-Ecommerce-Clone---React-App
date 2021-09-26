@@ -12,13 +12,13 @@ a:hover{
   color: #f57224 !important;
 }
 .col-primary{
-  color: f57224 !important;
+  color: #f57224 !important;
 }
-
 body{
   font-family:Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
   color: #999;
   overflow-x: hidden;
+  width: 100vw;
   background-color: rgb(133, 129, 129, 0.05) !important;
 }
 .gradient{
@@ -33,6 +33,22 @@ body{
   position: absolute;
   top: 0;
   max-height: 344px !important;
+}
+@media only screen and (max-width: 600px) {
+  .carousel{
+    width: 100vw;
+    margin: 0 !important;
+    padding: 0;
+    z-index: 1;
+    width: 100vw !important;
+  }
+.gradient{
+  background-color: #d98324;
+  height: 330px;
+}
+.carousel img{
+    max-height: 330px;
+}
 }
 .categories{
   width: 12rem;
@@ -80,4 +96,27 @@ body{
   z-index: 111;
   position: relative;
   padding: 15px 0;
+}
+@media only screen and (max-width: 768px) {
+  body{
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  .top-15{
+    margin-top:7rem;
+  }
+  .categories{
+    text-indent: 20px;
+    height: 361px;
+  }
+  .carousel{
+    margin-left: -1.5rem;
+    width: 100vw;
+    padding: 0;
+    z-index: 1;
+    width: 100vw !important;
+  }
+  .carousel img{
+    height: 360px;
+}
 }

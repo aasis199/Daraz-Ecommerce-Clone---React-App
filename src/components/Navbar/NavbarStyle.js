@@ -10,7 +10,6 @@ export const Nav = styled.nav`
         display:flex;
         float:right;
         font-size: 12px;
-        background-color: white !important;
 
     }
     ul li{
@@ -21,7 +20,7 @@ export const Nav = styled.nav`
         color: #333;
     }
     .second-menu{
-        width: 95%;
+        width: 100%;
         margin:auto;
         display:flex; 
         justify-content: space-evenly;
@@ -67,6 +66,36 @@ export const Nav = styled.nav`
     .active{
         color: #f57224;
         font-weight: 500;
+    }
+    @media only screen and (max-width: 768px) {
+        .logo{
+            width:120px;
+            margin-top: 10px;
+        }
+        input {
+            margin-top: 10px;
+        }
+        .fa-search{
+            margin-top: 10px;
+        }
+        .fa-shopping-cart{
+            margin-top: 10px;
+        }
+        
+    }   
+    @media only screen and (max-width: 600px) {
+        input {
+            width: 65% !important;
+            padding: 1rem;
+            margin-top: 10px;
+        }
+        .fa-search{
+            margin-top: 10px;
+        }
+        .fa-shopping-cart{
+            right: 0;
+            position:absolute;
+        }
     }
 `
 

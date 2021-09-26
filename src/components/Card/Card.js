@@ -28,7 +28,7 @@ const Card = [
     },
     {
         id: '5',
-        title: 'Global Collection',
+        title: 'Collection',
         URL : 'global',
         image: 'https://icms-image.slatic.net/images/ims-web/b451bdc5-c0ce-4ed3-9e74-1f0f59d64480.png',
     },
@@ -40,11 +40,11 @@ export default function Cards() {
     return (
         <Click>
             <Container>
-            <div className="car container d-flex">
+            <div className="car container row">
                 {Card.map(({ id, title,URL, image, cName}) => (
-                  <div className="card_btn">
-                    <img src={image} className="image w-100"></img><a href={URL}><p key={id}> {title}</p></a>
-                    <i className="fa fa-left"></i>
+                  <div className="card_btn d-lg-flex">
+                    <img src={image} className="image w-100"></img>
+                    <a href={URL}><p key={id}> {title}</p></a>
                   </div>
                 ))}
             </div>
